@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: diploma-frontend
+Name: dop-frontend
 Version: 0.6
-Summary: Frontend for diploma project
-Author: Skillbox
+Summary: Frontend for megano project
+Author: User
 License: BSD-3-Clause  # Example license
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django

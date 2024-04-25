@@ -1,5 +1,5 @@
 asgiref==3.8.1
-diploma-frontend @ file:///home/nikita/PycharmProjects/Megano/megano/dist/dop-frontend-0.6.tar.gz#sha256=b68e6647731cd695fa72e9bc2d737f05cb9f3f809a11a4db12f5577bff1ccb14
+dop-frontend @ file:///home/nikita/PycharmProjects/Megano/megano/dist/dop-frontend-0.6.tar.gz#sha256=b68e6647731cd695fa72e9bc2d737f05cb9f3f809a11a4db12f5577bff1ccb14
 Django==5.0.4
 django-debug-toolbar==4.3.0
 djangorestframework==3.15.1
