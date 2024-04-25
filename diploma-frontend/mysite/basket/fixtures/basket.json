@@ -1,0 +1,79 @@
+[
+{
+  "model": "basket.basket",
+  "pk": 1,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 2,
+  "fields": {
+    "user": 2
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 3,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 4,
+  "fields": {
+    "user": 3
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 5,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 6,
+  "fields": {
+    "user": 4
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 7,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 8,
+  "fields": {
+    "user": 1
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 9,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 10,
+  "fields": {
+    "user": null
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 11,
+  "fields": {
+    "user": null
+  }
+}
+]

@@ -1,0 +1,59 @@
+[
+{
+  "model": "myauth.avatar",
+  "pk": 1,
+  "fields": {
+    "src": "avatars/user_2/man.png",
+    "alt": "Avatar image"
+  }
+},
+{
+  "model": "myauth.avatar",
+  "pk": 2,
+  "fields": {
+    "src": "avatars/user_3/man.png",
+    "alt": "Avatar image"
+  }
+},
+{
+  "model": "myauth.avatar",
+  "pk": 3,
+  "fields": {
+    "src": "avatars/user_4/man.png",
+    "alt": "Avatar image"
+  }
+},
+{
+  "model": "myauth.profile",
+  "pk": 1,
+  "fields": {
+    "fullName": "Никита",
+    "email": "1@mail.ru",
+    "phone": 79991112233,
+    "user": 2,
+    "avatar": 1
+  }
+},
+{
+  "model": "myauth.profile",
+  "pk": 2,
+  "fields": {
+    "fullName": "Bob Smith",
+    "email": "2@mail.ru",
+    "phone": 79994445566,
+    "user": 3,
+    "avatar": 2
+  }
+},
+{
+  "model": "myauth.profile",
+  "pk": 3,
+  "fields": {
+    "fullName": "Jhon Bush",
+    "email": "3@mail.ru",
+    "phone": 79997778899,
+    "user": 4,
+    "avatar": 3
+  }
+}
+]

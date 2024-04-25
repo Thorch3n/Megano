@@ -1,0 +1,1353 @@
+[
+{
+  "model": "products.categoryimage",
+  "pk": 1,
+  "fields": {
+    "src": "categoryImages/Smartphones.jpg",
+    "alt": "Category smartphones"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 2,
+  "fields": {
+    "src": "categoryImages/iphones.jpeg",
+    "alt": "Category iPhones"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 3,
+  "fields": {
+    "src": "categoryImages/Samsung.jpg",
+    "alt": "Category Samsung smartphones"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 4,
+  "fields": {
+    "src": "categoryImages/Xiaomi.jpg",
+    "alt": "Category Xiaomi smartphone"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 5,
+  "fields": {
+    "src": "categoryImages/Laptops.jpg",
+    "alt": "Category Laptops"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 6,
+  "fields": {
+    "src": "categoryImages/HP.jpg",
+    "alt": "Category HP laptops"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 7,
+  "fields": {
+    "src": "categoryImages/Asus.jpg",
+    "alt": "Category Asus laptops"
+  }
+},
+{
+  "model": "products.categoryimage",
+  "pk": 8,
+  "fields": {
+    "src": "categoryImages/Xiaomi_laptop.jpg",
+    "alt": "Category Xiaomi laptops"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "title": "Smartphones",
+    "image": 1,
+    "parent": null,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "title": "iPhones",
+    "image": 2,
+    "parent": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "title": "Samsung",
+    "image": 3,
+    "parent": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "title": "Xiaomi",
+    "image": 4,
+    "parent": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "title": "Laptops",
+    "image": 5,
+    "parent": null,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "title": "HP",
+    "image": 6,
+    "parent": 5,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "title": "Asus",
+    "image": 7,
+    "parent": 5,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "title": "Xiaomi Laptop",
+    "image": 8,
+    "parent": 5,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 1,
+  "fields": {
+    "src": "products/iphone_15_pro_max_titan.jpeg",
+    "alt": "Product iphone 15 pro max titan"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 2,
+  "fields": {
+    "src": "products/iPhone_15_pro_max_titan_2.jpg",
+    "alt": "Product iphone 15 pro max titan 2"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 3,
+  "fields": {
+    "src": "products/iphone_15_pro_max_titan_3.jpeg",
+    "alt": "Product iphone 15 pro max titan 3"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 4,
+  "fields": {
+    "src": "products/Samsung_Galaxy_S24_Ultra_512_purple.jpg",
+    "alt": "Product Samsung Galaxy S24 Ultra 512 purple"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 5,
+  "fields": {
+    "src": "products/Samsung_Galaxy_S24_Ultra_512_purple_2.jpg",
+    "alt": "Product Samsung Galaxy S24 Ultra 512 purple 2"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 6,
+  "fields": {
+    "src": "products/Samsung_Galaxy_S24_Ultra_512_purple_3.jpg",
+    "alt": "Product Samsung Galaxy S24 Ultra 512 purple 3"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 7,
+  "fields": {
+    "src": "products/Смартфон_Xiaomi_13_Ultra_12512_ГБ_чёрный.jpg",
+    "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 8,
+  "fields": {
+    "src": "products/Смартфон_Xiaomi_13_Ultra_12512_ГБ_чёрный_2.jpg",
+    "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный 2"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 9,
+  "fields": {
+    "src": "products/Смартфон_Xiaomi_13_Ultra_12512_ГБ_чёрный_3.jpg",
+    "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный 3"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 10,
+  "fields": {
+    "src": "products/Ноутбук_HP_Victus_16-e0091ur_4M086EA.jpg",
+    "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA)"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 11,
+  "fields": {
+    "src": "products/Ноутбук_HP_Victus_16-e0091ur_4M086EA_2.jpg",
+    "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 2"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 12,
+  "fields": {
+    "src": "products/Ноутбук_HP_Victus_16-e0091ur_4M086EA_3.jpg",
+    "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 3"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 13,
+  "fields": {
+    "src": "products/Ноутбук_ASUS_TUF_Gaming_FA507RR-HN035_90NR0B32-M00540.jpg",
+    "alt": "Product Ноутбук ASUS TUF Gaming FA507RR-HN035 (90NR0B32-M00540)"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 14,
+  "fields": {
+    "src": "products/Ноутбук_ASUS_TUF_Gaming_FA507RR-HN035_90NR0B32-M00540_2.jpg",
+    "alt": "Product Ноутбук ASUS TUF Gaming FA507RR-HN035 (90NR0B32-M00540)"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 15,
+  "fields": {
+    "src": "products/Ноутбук_ASUS_TUF_Gaming_FA507RR-HN035_90NR0B32-M00540_3.jpg",
+    "alt": "Product Ноутбук ASUS TUF Gaming FA507RR-HN035 (90NR0B32-M00540)"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 16,
+  "fields": {
+    "src": "products/Ноутбук_Xiaomi_J7265_JYU4537RU.jpg",
+    "alt": "Product Ноутбук Xiaomi J7265 (JYU4537RU)"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 17,
+  "fields": {
+    "src": "products/Ноутбук_Xiaomi_J7265_JYU4537RU_2.jpg",
+    "alt": "Product Ноутбук Xiaomi J7265 (JYU4537RU) 2"
+  }
+},
+{
+  "model": "products.productimages",
+  "pk": 18,
+  "fields": {
+    "src": "products/Ноутбук_Xiaomi_J7265_JYU4537RU_3.jpg",
+    "alt": "Product Ноутбук Xiaomi J7265 (JYU4537RU) 3"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Smartphone"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 2,
+  "fields": {
+    "name": "iPhone"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Samsung"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Xiaomi"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Laptop"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 6,
+  "fields": {
+    "name": "HP"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Asus"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "price": "1844.00",
+    "count": 25,
+    "date": "2024-04-24T17:20:54.187Z",
+    "title": "Смартфон Apple iPhone 15 Pro Max 512 ГБ Dual SIM титановый бежевый",
+    "description": "Apple iPhone 15 Pro Max - сверхпрочный флагман, изготовленный из титана.",
+    "fullDescription": "Apple iPhone 15 Pro Max - сверхпрочный флагман, изготовленный из титана. За бескомпромиссную производительность смартфона отвечает новейший чип Apple A17 Pro. Устройство получило передовую систему камер, продуманную эргономику, обновленный дизайн и новую программируемую кнопку.",
+    "freeDelivery": true,
+    "number_of_sales": 0,
+    "index_sort": 100,
+    "limited_edition": true,
+    "is_deleted": false,
+    "images": [
+      1,
+      2,
+      3
+    ],
+    "tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "category": 3,
+    "price": "1715.00",
+    "count": 30,
+    "date": "2024-04-24T17:31:50.023Z",
+    "title": "Смартфон Samsung Galaxy S24 Ultra 512 ГБ фиолетовый",
+    "description": "Samsung Galaxy S24 Ultra — совершенно новая форма смартфона Galaxy Ultra с 6,8-дюймовым экраном, обрамленным Титановой рамкой. Это абсолютное чудо дизайна.",
+    "fullDescription": "Samsung Galaxy S24 Ultra — совершенно новая форма смартфона Galaxy Ultra с 6,8-дюймовым экраном, обрамленным Титановой рамкой. Это абсолютное чудо дизайна. Непробиваемая новинка — титановый щит, обрамляющий ваш смартфон. Ощутите всю прочность титана.",
+    "freeDelivery": true,
+    "number_of_sales": 0,
+    "index_sort": 95,
+    "limited_edition": true,
+    "is_deleted": false,
+    "images": [
+      4,
+      5,
+      6
+    ],
+    "tags": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "category": 4,
+    "price": "1393.00",
+    "count": 50,
+    "date": "2024-04-24T17:51:43.932Z",
+    "title": "Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный",
+    "description": "Смартфон Xiaomi 13 Ultra оснащен дисплеем AMOLED с диагональю 6,73 дюйма и разрешением 1440×3200, прикрытым стеклом с загнутыми краями Corning Gorilla Glass Victus.",
+    "fullDescription": "Смартфон Xiaomi 13 Ultra оснащен дисплеем AMOLED с диагональю 6,73 дюйма и разрешением 1440×3200, прикрытым стеклом с загнутыми краями Corning Gorilla Glass Victus. изические размеры экрана составляют 70×156 мм, плотность точек — 522 ppi.",
+    "freeDelivery": true,
+    "number_of_sales": 0,
+    "index_sort": 90,
+    "limited_edition": true,
+    "is_deleted": false,
+    "images": [
+      7,
+      8,
+      9
+    ],
+    "tags": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "category": 6,
+    "price": "750.00",
+    "count": 5,
+    "date": "2024-04-24T17:58:46.172Z",
+    "title": "Ноутбук HP Victus 16-e0091ur (4M086EA)",
+    "description": "Ноутбук Victus от HP с диагональю 16,1 дюйма, оснащенный процессором AMD, обладает всеми необходимыми функциями как для игр, так и для решения повседневных задач.",
+    "fullDescription": "Ноутбук Victus от HP с диагональю 16,1 дюйма, оснащенный процессором AMD, обладает всеми необходимыми функциями как для игр, так и для решения повседневных задач. Расширь свои возможности с помощью универсальной игровой клавиатуры и наслаждайся качественным изображением на экране с высокой частотой обновления.",
+    "freeDelivery": false,
+    "number_of_sales": 0,
+    "index_sort": 85,
+    "limited_edition": true,
+    "is_deleted": false,
+    "images": [
+      10,
+      11,
+      12
+    ],
+    "tags": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "category": 7,
+    "price": "1423.00",
+    "count": 100,
+    "date": "2024-04-25T08:48:51.881Z",
+    "title": "Ноутбук ASUS TUF Gaming FA507RR-HN035 (90NR0B32-M00540)",
+    "description": "Ноутбук ASUS TUF Gaming FA507RR-HN035 диагональю 15.6 дюймов оснащен IPS-дисплеем с высокой цветопередачей. Картинка передается в разрешении Full HD, что позволяет полностью погрузиться в увиденное.",
+    "fullDescription": "Ноутбук ASUS TUF Gaming FA507RR-HN035 диагональю 15.6 дюймов оснащен IPS-дисплеем с высокой цветопередачей. Картинка передается в разрешении Full HD, что позволяет полностью погрузиться в увиденное. Модель имеет широкий цветовой охват и обеспечивает комфортный просмотр без искажений.",
+    "freeDelivery": false,
+    "number_of_sales": 0,
+    "index_sort": 85,
+    "limited_edition": false,
+    "is_deleted": false,
+    "images": [
+      13,
+      14,
+      15
+    ],
+    "tags": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "category": 8,
+    "price": "879.00",
+    "count": 50,
+    "date": "2024-04-25T09:00:18.778Z",
+    "title": "Ноутбук Xiaomi J7265 (JYU4537RU)",
+    "description": "Профессиональный флагманский дисплей с разрешением 2880 × 1800 пикселей, цветовым охватом 100% sRGB и точностью цветопередачи ΔE≈0,41 отображает детали на фотографиях и видео в невероятном высоком качестве и дает потрясающий пользовательский опыт.",
+    "fullDescription": "Профессиональный флагманский дисплей с разрешением 2880 × 1800 пикселей, цветовым охватом 100% sRGB и точностью цветопередачи ΔE≈0,41 отображает детали на фотографиях и видео в невероятном высоком качестве и дает потрясающий пользовательский опыт. Встроенный двойной вентилятор с двойной тепловой трубой обеспечивает беспрерывный и надежный отвод тепла, что дает высокий показатель производительности 45 Вт TDP.",
+    "freeDelivery": false,
+    "number_of_sales": 0,
+    "index_sort": 85,
+    "limited_edition": false,
+    "is_deleted": false,
+    "images": [
+      16,
+      17,
+      18
+    ],
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 1,
+  "fields": {
+    "name": "Операционная система",
+    "value": "iOS",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 2,
+  "fields": {
+    "name": "Версия операционной системы",
+    "value": "17",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 3,
+  "fields": {
+    "name": "Количество SIM-карт",
+    "value": "2",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 4,
+  "fields": {
+    "name": "Тип SIM-карты",
+    "value": "2 nano SIM",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 5,
+  "fields": {
+    "name": "Модуль сотовой связи",
+    "value": "5G, 4G (LTE), 3G, 2G",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 6,
+  "fields": {
+    "name": "Поддержка 5G",
+    "value": "да",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 7,
+  "fields": {
+    "name": "Поддержка NFC",
+    "value": "есть",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 8,
+  "fields": {
+    "name": "Экран",
+    "value": "6.7\"",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 9,
+  "fields": {
+    "name": "Разрешение экрана",
+    "value": "2796x1290",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 10,
+  "fields": {
+    "name": "Частота обновления экрана",
+    "value": "120 Гц",
+    "product": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 11,
+  "fields": {
+    "name": "Производитель процессора",
+    "value": "Apple",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 12,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "A17 Pro",
+    "product": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 13,
+  "fields": {
+    "name": "Количество ядер процессора",
+    "value": "6",
+    "product": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 14,
+  "fields": {
+    "name": "Встроенная память",
+    "value": "512 Гб",
+    "product": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 15,
+  "fields": {
+    "name": "Операционная система",
+    "value": "Android",
+    "product": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 16,
+  "fields": {
+    "name": "Версия операционной системы",
+    "value": "14",
+    "product": [
+      2
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 17,
+  "fields": {
+    "name": "Экран",
+    "value": "6.8\"",
+    "product": [
+      2
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 18,
+  "fields": {
+    "name": "Разрешение экрана",
+    "value": "3120х1440",
+    "product": [
+      2
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 19,
+  "fields": {
+    "name": "Производитель процессора",
+    "value": "Qualcomm",
+    "product": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 20,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "Snapdragon 8 Gen 3",
+    "product": [
+      2
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 21,
+  "fields": {
+    "name": "Количество ядер процессора",
+    "value": "8",
+    "product": [
+      2,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 22,
+  "fields": {
+    "name": "Операционная система",
+    "value": "Windows 10",
+    "product": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 23,
+  "fields": {
+    "name": "Производитель процессора",
+    "value": "AMD",
+    "product": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 24,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "Ryzen 5 5600H",
+    "product": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 25,
+  "fields": {
+    "name": "Экран",
+    "value": "16.1\"",
+    "product": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 26,
+  "fields": {
+    "name": "Максимальное разрешение",
+    "value": "1920x1080",
+    "product": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 27,
+  "fields": {
+    "name": "Тип видеокарты",
+    "value": "интегрированный",
+    "product": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 28,
+  "fields": {
+    "name": "Модель видеокарты",
+    "value": "Radeon RX 5500M",
+    "product": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 29,
+  "fields": {
+    "name": "Объем оперативной памяти",
+    "value": "8 Гб",
+    "product": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 30,
+  "fields": {
+    "name": "Тип накопителя",
+    "value": "SSD",
+    "product": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 31,
+  "fields": {
+    "name": "Объем SSD",
+    "value": "512 Гб",
+    "product": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 32,
+  "fields": {
+    "name": "Версия операционной системы",
+    "value": "13",
+    "product": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 33,
+  "fields": {
+    "name": "Экран",
+    "value": "6.73\"",
+    "product": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 34,
+  "fields": {
+    "name": "Разрешение экрана",
+    "value": "3200х1440",
+    "product": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 35,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "Snapdragon 8 Gen 2",
+    "product": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 37,
+  "fields": {
+    "name": "Операционная система",
+    "value": "FreeDOS",
+    "product": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 38,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "Ryzen 7 6800H",
+    "product": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 39,
+  "fields": {
+    "name": "Экран",
+    "value": "15.6\"",
+    "product": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 40,
+  "fields": {
+    "name": "Тип видеокарты",
+    "value": "дискретный",
+    "product": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 41,
+  "fields": {
+    "name": "Модель видеокарты",
+    "value": "GeForce RTX 3070",
+    "product": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 42,
+  "fields": {
+    "name": "Объем оперативной памяти",
+    "value": "16 Гб",
+    "product": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 43,
+  "fields": {
+    "name": "Производитель процессора",
+    "value": "Intel",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 44,
+  "fields": {
+    "name": "Модель процессора",
+    "value": "Core i5 12500H",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 45,
+  "fields": {
+    "name": "Количество ядер процессора",
+    "value": "12",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 46,
+  "fields": {
+    "name": "Экран",
+    "value": "14\"",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 47,
+  "fields": {
+    "name": "Максимальное разрешение",
+    "value": "2880x1800",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.specification",
+  "pk": 48,
+  "fields": {
+    "name": "Модель видеокарты",
+    "value": "Iris Xe Graphics",
+    "product": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.review",
+  "pk": 1,
+  "fields": {
+    "author": "Никита",
+    "email": "1@mail.ru",
+    "text": "Хороший ноутбук за свои деньги. И поиграть и поработать",
+    "rate": 5,
+    "date": "2024-04-24T18:02:38.583Z",
+    "product": 4
+  }
+},
+{
+  "model": "products.review",
+  "pk": 2,
+  "fields": {
+    "author": "Bob",
+    "email": "2@mail.ru",
+    "text": "Шикарный телефон! Дизайн перекочевал из серии Note, которая так была мной любима. Стилус максимально удобный, сам телефон в руке лежит идеально!",
+    "rate": 5,
+    "date": "2024-04-24T18:23:48.753Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.order",
+  "pk": 1,
+  "fields": {
+    "createdAt": "2024-04-24T18:05:26.214Z",
+    "fullName": "Ананас Петрушкович",
+    "email": "5@mail.ru",
+    "phone": "79999999999",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "1844.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Ул. Пушкина, дом Колотушкина",
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1844,
+        "count": 1,
+        "date": "2024-04-24T17:20:54.187600Z",
+        "title": "Смартфон Apple iPhone 15 Pro Max 512 ГБ Dual SIM титановый бежевый",
+        "description": "Apple iPhone 15 Pro Max - сверхпрочный флагман, изготовленный из титана.",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/iphone_15_pro_max_titan.jpeg",
+            "alt": "Product iphone 15 pro max titan"
+          },
+          {
+            "src": "/media/products/iPhone_15_pro_max_titan_2.jpg",
+            "alt": "Product iphone 15 pro max titan 2"
+          },
+          {
+            "src": "/media/products/iphone_15_pro_max_titan_3.jpeg",
+            "alt": "Product iphone 15 pro max titan 3"
+          }
+        ]
+      }
+    ],
+    "user": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.order",
+  "pk": 2,
+  "fields": {
+    "createdAt": "2024-04-24T18:09:14.785Z",
+    "fullName": "Никита Александрович",
+    "email": "1@mail.ru",
+    "phone": "79991112233",
+    "deliveryType": "express",
+    "paymentType": "online",
+    "totalCost": "1715.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Ул. Пушкина, дом Не колотушкина",
+    "products": [
+      {
+        "id": 2,
+        "category": "3",
+        "price": 1715,
+        "count": 1,
+        "date": "2024-04-24T17:31:50.023058Z",
+        "title": "Смартфон Samsung Galaxy S24 Ultra 512 ГБ фиолетовый",
+        "description": "Samsung Galaxy S24 Ultra — совершенно новая форма смартфона Galaxy Ultra с 6,8-дюймовым экраном, обрамленным Титановой рамкой. Это абсолютное чудо дизайна.",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/Samsung_Galaxy_S24_Ultra_512_purple.jpg",
+            "alt": "Product Samsung Galaxy S24 Ultra 512 purple"
+          },
+          {
+            "src": "/media/products/Samsung_Galaxy_S24_Ultra_512_purple_2.jpg",
+            "alt": "Product Samsung Galaxy S24 Ultra 512 purple 2"
+          },
+          {
+            "src": "/media/products/Samsung_Galaxy_S24_Ultra_512_purple_3.jpg",
+            "alt": "Product Samsung Galaxy S24 Ultra 512 purple 3"
+          }
+        ]
+      }
+    ],
+    "user": 2,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.order",
+  "pk": 3,
+  "fields": {
+    "createdAt": "2024-04-24T18:13:43.803Z",
+    "fullName": "Иванов Иван Иванович",
+    "email": "1@mail.ru",
+    "phone": "79994445566",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "750.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Ул Иванова, дом Петрова",
+    "products": [
+      {
+        "id": 4,
+        "category": "6",
+        "price": 750,
+        "count": 1,
+        "date": "2024-04-24T17:58:46.172596Z",
+        "title": "Ноутбук HP Victus 16-e0091ur (4M086EA)",
+        "description": "Ноутбук Victus от HP с диагональю 16,1 дюйма, оснащенный процессором AMD, обладает всеми необходимыми функциями как для игр, так и для решения повседневных задач.",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA)"
+          },
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA_2.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 2"
+          },
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA_3.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 3"
+          }
+        ]
+      }
+    ],
+    "user": 2,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.order",
+  "pk": 4,
+  "fields": {
+    "createdAt": "2024-04-24T18:16:50.307Z",
+    "fullName": "Никита Александрович",
+    "email": "1@mail.ru",
+    "phone": "79999999999",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "1393.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Ул. Пушкина, дом Не Колотушкина",
+    "products": [
+      {
+        "id": 3,
+        "category": "4",
+        "price": 1393,
+        "count": 1,
+        "date": "2024-04-24T17:51:43.932552Z",
+        "title": "Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный",
+        "description": "Смартфон Xiaomi 13 Ultra оснащен дисплеем AMOLED с диагональю 6,73 дюйма и разрешением 1440×3200, прикрытым стеклом с загнутыми краями Corning Gorilla Glass Victus.",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/%D0%A1%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_Xiaomi_13_Ultra_12512_%D0%93%D0%91_%D1%87%D1%91%D1%80%D0%BD%D1%8B%D0%B9.jpg",
+            "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный"
+          },
+          {
+            "src": "/media/products/%D0%A1%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_Xiaomi_13_Ultra_12512_%D0%93%D0%91_%D1%87%D1%91%D1%80%D0%BD%D1%8B%D0%B9_2.jpg",
+            "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный 2"
+          },
+          {
+            "src": "/media/products/%D0%A1%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_Xiaomi_13_Ultra_12512_%D0%93%D0%91_%D1%87%D1%91%D1%80%D0%BD%D1%8B%D0%B9_3.jpg",
+            "alt": "Product Смартфон Xiaomi 13 Ultra 12+512 ГБ чёрный 3"
+          }
+        ]
+      }
+    ],
+    "user": 3,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.order",
+  "pk": 5,
+  "fields": {
+    "createdAt": "2024-04-25T09:08:59.908Z",
+    "fullName": "Сельдерей Ананасов",
+    "email": "12@mail.ru",
+    "phone": "79994445566",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "1844.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Кудыкины горы",
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1844,
+        "count": 1,
+        "date": "2024-04-24T17:20:54.187600Z",
+        "title": "Смартфон Apple iPhone 15 Pro Max 512 ГБ Dual SIM титановый бежевый",
+        "description": "Apple iPhone 15 Pro Max - сверхпрочный флагман, изготовленный из титана.",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/iphone_15_pro_max_titan.jpeg",
+            "alt": "Product iphone 15 pro max titan"
+          },
+          {
+            "src": "/media/products/iPhone_15_pro_max_titan_2.jpg",
+            "alt": "Product iphone 15 pro max titan 2"
+          },
+          {
+            "src": "/media/products/iphone_15_pro_max_titan_3.jpeg",
+            "alt": "Product iphone 15 pro max titan 3"
+          }
+        ]
+      }
+    ],
+    "user": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.order",
+  "pk": 6,
+  "fields": {
+    "createdAt": "2024-04-25T09:11:42.952Z",
+    "fullName": "Пушкин Александр Сергеевич",
+    "email": "12@mail.ru",
+    "phone": "79991112233",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "950.00",
+    "status": "Accepted",
+    "city": "Москва",
+    "address": "Ул. Ленина, 15",
+    "products": [
+      {
+        "id": 4,
+        "category": "6",
+        "price": 750,
+        "count": 1,
+        "date": "2024-04-24T17:58:46.172596Z",
+        "title": "Ноутбук HP Victus 16-e0091ur (4M086EA)",
+        "description": "Ноутбук Victus от HP с диагональю 16,1 дюйма, оснащенный процессором AMD, обладает всеми необходимыми функциями как для игр, так и для решения повседневных задач.",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA)"
+          },
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA_2.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 2"
+          },
+          {
+            "src": "/media/products/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_HP_Victus_16-e0091ur_4M086EA_3.jpg",
+            "alt": "Product Ноутбук HP Victus 16-e0091ur (4M086EA) 3"
+          }
+        ]
+      }
+    ],
+    "user": 1,
+    "is_deleted": false
+  }
+},
+{
+  "model": "products.saleimage",
+  "pk": 1,
+  "fields": {
+    "src": "sales/iphone_15_pro_max_titan.jpeg",
+    "alt": "Sales iPhones"
+  }
+},
+{
+  "model": "products.sale",
+  "pk": 1,
+  "fields": {
+    "price": "1844.00",
+    "salePrice": "1500.00",
+    "dateFrom": "2024-04-25",
+    "dateTo": "2024-09-25",
+    "title": "Скидки на iPhone 15 Pro MAX",
+    "images": [
+      1
+    ]
+  }
+}
+]

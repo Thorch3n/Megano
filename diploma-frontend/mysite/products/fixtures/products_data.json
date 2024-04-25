@@ -1,0 +1,2351 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "title": "Smartphones",
+    "image": 1,
+    "parent": null
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "title": "iPhones",
+    "image": 1,
+    "parent": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "title": "Test",
+    "image": 1,
+    "parent": null
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "title": "Test 2",
+    "image": 1,
+    "parent": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "price": "1999.00",
+    "count": 5,
+    "date": "2024-04-16T16:10:42.255Z",
+    "title": "phone",
+    "description": "iphone",
+    "fullDescription": "iphone 15",
+    "freeDelivery": false,
+    "specifications": null,
+    "number_of_sales": 5,
+    "index_sort": 1,
+    "limited_edition": false,
+    "images": [
+      2,
+      3,
+      4
+    ],
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "category": 4,
+    "price": "1599.00",
+    "count": 25,
+    "date": "2024-04-17T11:26:07.167Z",
+    "title": "phone 2",
+    "description": "iphone 13",
+    "fullDescription": "iphone 13 black",
+    "freeDelivery": true,
+    "specifications": null,
+    "number_of_sales": 2,
+    "index_sort": 5,
+    "limited_edition": true,
+    "images": [
+      1,
+      2,
+      3
+    ],
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "category": 4,
+    "price": "2000.00",
+    "count": 20,
+    "date": "2024-04-19T12:01:38.755Z",
+    "title": "Laptop",
+    "description": "Laptop best of the best, бикоз Mac",
+    "fullDescription": "Laptop best of the best, бикоз Mac air pro",
+    "freeDelivery": false,
+    "specifications": null,
+    "number_of_sales": 4,
+    "index_sort": 10,
+    "limited_edition": false,
+    "images": [
+      1
+    ],
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "price": "1234.00",
+    "count": 23,
+    "date": "2024-04-23T15:55:05.279Z",
+    "title": "Phone 3",
+    "description": "asdfgadg",
+    "fullDescription": "qwertqwteqt",
+    "freeDelivery": false,
+    "specifications": "Size:XL",
+    "number_of_sales": 0,
+    "index_sort": 5,
+    "limited_edition": true,
+    "images": [
+      1,
+      2,
+      3
+    ],
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "category": 1,
+    "price": "1234.00",
+    "count": 24,
+    "date": "2024-04-23T16:30:46.155Z",
+    "title": "test222",
+    "description": "test2",
+    "fullDescription": "test1",
+    "freeDelivery": false,
+    "specifications": "size:XL",
+    "number_of_sales": 0,
+    "index_sort": 8,
+    "limited_edition": false,
+    "images": [
+      1,
+      2
+    ],
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.order",
+  "pk": 1,
+  "fields": {
+    "createdAt": "2024-04-21T15:17:23.500Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 2,
+  "fields": {
+    "createdAt": "2024-04-21T15:18:19.514Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 3,
+  "fields": {
+    "createdAt": "2024-04-21T15:35:18.044Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 4,
+  "fields": {
+    "createdAt": "2024-04-21T15:59:50.190Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 5,
+  "fields": {
+    "createdAt": "2024-04-21T16:28:42.705Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 6,
+  "fields": {
+    "createdAt": "2024-04-21T16:29:42.835Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 7,
+  "fields": {
+    "createdAt": "2024-04-21T16:31:49.319Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 8,
+  "fields": {
+    "createdAt": "2024-04-21T16:33:43.279Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 9,
+  "fields": {
+    "createdAt": "2024-04-21T16:40:16.598Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 10,
+  "fields": {
+    "createdAt": "2024-04-21T16:40:34.845Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 11,
+  "fields": {
+    "createdAt": "2024-04-21T16:41:40.895Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 12,
+  "fields": {
+    "createdAt": "2024-04-21T16:42:38.520Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 13,
+  "fields": {
+    "createdAt": "2024-04-21T16:47:04.856Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 14,
+  "fields": {
+    "createdAt": "2024-04-21T16:47:43.082Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 15,
+  "fields": {
+    "createdAt": "2024-04-21T16:48:35.740Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 16,
+  "fields": {
+    "createdAt": "2024-04-21T16:49:03.358Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 17,
+  "fields": {
+    "createdAt": "2024-04-21T16:50:20.782Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 18,
+  "fields": {
+    "createdAt": "2024-04-21T16:51:06.867Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 19,
+  "fields": {
+    "createdAt": "2024-04-21T16:56:45.871Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 20,
+  "fields": {
+    "createdAt": "2024-04-21T17:00:05.131Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": 1
+  }
+},
+{
+  "model": "products.order",
+  "pk": 21,
+  "fields": {
+    "createdAt": "2024-04-21T17:40:00.543Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 22,
+  "fields": {
+    "createdAt": "2024-04-21T17:44:07.024Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 23,
+  "fields": {
+    "createdAt": "2024-04-21T17:44:21.372Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 24,
+  "fields": {
+    "createdAt": "2024-04-21T17:56:44.876Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 25,
+  "fields": {
+    "createdAt": "2024-04-21T17:58:54.826Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 26,
+  "fields": {
+    "createdAt": "2024-04-21T18:00:05.778Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 27,
+  "fields": {
+    "createdAt": "2024-04-21T18:14:16.653Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 28,
+  "fields": {
+    "createdAt": "2024-04-21T18:14:37.671Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 29,
+  "fields": {
+    "createdAt": "2024-04-21T18:15:04.367Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 30,
+  "fields": {
+    "createdAt": "2024-04-21T18:16:00.233Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 31,
+  "fields": {
+    "createdAt": "2024-04-21T18:23:43.388Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 32,
+  "fields": {
+    "createdAt": "2024-04-21T18:58:29.026Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 33,
+  "fields": {
+    "createdAt": "2024-04-21T19:00:52.770Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 34,
+  "fields": {
+    "createdAt": "2024-04-22T09:02:40.455Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 35,
+  "fields": {
+    "createdAt": "2024-04-22T09:18:35.931Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 36,
+  "fields": {
+    "createdAt": "2024-04-22T09:19:21.893Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 37,
+  "fields": {
+    "createdAt": "2024-04-22T09:23:11.588Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 38,
+  "fields": {
+    "createdAt": "2024-04-22T09:23:30.712Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 39,
+  "fields": {
+    "createdAt": "2024-04-22T09:24:59.791Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 40,
+  "fields": {
+    "createdAt": "2024-04-22T09:25:05.990Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 41,
+  "fields": {
+    "createdAt": "2024-04-22T09:32:49.402Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 42,
+  "fields": {
+    "createdAt": "2024-04-22T09:34:06.312Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 43,
+  "fields": {
+    "createdAt": "2024-04-22T09:40:51.166Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 44,
+  "fields": {
+    "createdAt": "2024-04-22T09:43:59.734Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 45,
+  "fields": {
+    "createdAt": "2024-04-22T09:50:17.896Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 46,
+  "fields": {
+    "createdAt": "2024-04-22T09:51:21.809Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 47,
+  "fields": {
+    "createdAt": "2024-04-22T09:54:50.932Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 48,
+  "fields": {
+    "createdAt": "2024-04-22T10:54:12.932Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 49,
+  "fields": {
+    "createdAt": "2024-04-22T11:05:22.665Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "product_id": 1,
+        "count": 1
+      },
+      {
+        "product_id": 3,
+        "count": 1
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 50,
+  "fields": {
+    "createdAt": "2024-04-22T11:07:46.652Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "product_id": 1,
+        "count": 1
+      },
+      {
+        "product_id": 3,
+        "count": 1
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 51,
+  "fields": {
+    "createdAt": "2024-04-22T11:17:36.863Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 52,
+  "fields": {
+    "createdAt": "2024-04-22T11:19:49.389Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "product": 1,
+        "count": 1
+      },
+      {
+        "product": 3,
+        "count": 1
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 53,
+  "fields": {
+    "createdAt": "2024-04-22T11:41:13.183Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 54,
+  "fields": {
+    "createdAt": "2024-04-22T11:45:17.819Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 55,
+  "fields": {
+    "createdAt": "2024-04-22T11:45:31.961Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 56,
+  "fields": {
+    "createdAt": "2024-04-22T11:46:25.835Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 57,
+  "fields": {
+    "createdAt": "2024-04-22T11:49:45.798Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 58,
+  "fields": {
+    "createdAt": "2024-04-22T11:50:22.623Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 59,
+  "fields": {
+    "createdAt": "2024-04-22T11:52:13.745Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "3999.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 60,
+  "fields": {
+    "createdAt": "2024-04-22T11:53:43.315Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 61,
+  "fields": {
+    "createdAt": "2024-04-22T11:54:26.077Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 62,
+  "fields": {
+    "createdAt": "2024-04-22T11:54:51.342Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 63,
+  "fields": {
+    "createdAt": "2024-04-22T11:56:49.630Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 64,
+  "fields": {
+    "createdAt": "2024-04-22T12:15:37.429Z",
+    "fullName": "Nikita",
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "Accepted",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 65,
+  "fields": {
+    "createdAt": "2024-04-22T12:22:39.459Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 66,
+  "fields": {
+    "createdAt": "2024-04-22T12:24:00.854Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 67,
+  "fields": {
+    "createdAt": "2024-04-22T12:25:16.083Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 68,
+  "fields": {
+    "createdAt": "2024-04-22T12:26:27.791Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 69,
+  "fields": {
+    "createdAt": "2024-04-22T12:27:30.581Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 70,
+  "fields": {
+    "createdAt": "2024-04-22T12:29:54.777Z",
+    "fullName": "Никита",
+    "email": "relax.041998@gmail.com",
+    "phone": "79122603614",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "Accepted",
+    "city": "Салда",
+    "address": "asdfg",
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 71,
+  "fields": {
+    "createdAt": "2024-04-22T12:34:10.742Z",
+    "fullName": "Никита",
+    "email": "relax.041998@gmail.com",
+    "phone": "79122603614",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "Accepted",
+    "city": "Салда",
+    "address": "adsfqwefg",
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 1,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "4",
+        "price": 2000,
+        "count": 1,
+        "date": "2024-04-19T12:01:38.755943Z",
+        "title": "Laptop",
+        "description": "Laptop best of the best, бикоз Mac",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 72,
+  "fields": {
+    "createdAt": "2024-04-22T12:39:47.749Z",
+    "fullName": "Laptop",
+    "email": "relax.041998@gmail.com",
+    "phone": "79122603614",
+    "deliveryType": "express",
+    "paymentType": "someone",
+    "totalCost": null,
+    "status": "Accepted",
+    "city": "Салда",
+    "address": "sadg",
+    "products": [
+      {
+        "id": 2,
+        "category": "4",
+        "price": 1599,
+        "count": 1,
+        "date": "2024-04-17T11:26:07.167283Z",
+        "title": "phone 2",
+        "description": "iphone 13",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 73,
+  "fields": {
+    "createdAt": "2024-04-23T15:58:48.630Z",
+    "fullName": "Никита",
+    "email": "relax.041998@gmail.com",
+    "phone": "79122603614",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "Accepted",
+    "city": "Салда",
+    "address": "Воронова 15",
+    "products": [
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 5,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 74,
+  "fields": {
+    "createdAt": "2024-04-23T16:04:21.589Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 75,
+  "fields": {
+    "createdAt": "2024-04-23T16:04:58.406Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 76,
+  "fields": {
+    "createdAt": "2024-04-23T16:05:17.080Z",
+    "fullName": "Никита",
+    "email": "relax.041998@gmail.com",
+    "phone": "79122603614",
+    "deliveryType": "ordinary",
+    "paymentType": "online",
+    "totalCost": "7.00",
+    "status": "Accepted",
+    "city": "Салда",
+    "address": "asdasd",
+    "products": [
+      {
+        "id": 4,
+        "category": "1",
+        "price": 1234,
+        "count": 3,
+        "date": "2024-04-23T15:55:05.279291Z",
+        "title": "Phone 3",
+        "description": "asdfgadg",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "4",
+        "price": 1599,
+        "count": 2,
+        "date": "2024-04-17T11:26:07.167283Z",
+        "title": "phone 2",
+        "description": "iphone 13",
+        "freeDelivery": "True",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "category": "2",
+        "price": 1999,
+        "count": 2,
+        "date": "2024-04-16T16:10:42.255290Z",
+        "title": "phone",
+        "description": "iphone",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/inst.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": 7
+  }
+},
+{
+  "model": "products.order",
+  "pk": 77,
+  "fields": {
+    "createdAt": "2024-04-23T16:54:28.240Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 78,
+  "fields": {
+    "createdAt": "2024-04-23T16:55:19.600Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "2.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 4,
+        "category": "1",
+        "price": 1234,
+        "count": 2,
+        "date": "2024-04-23T15:55:05.279291Z",
+        "title": "Phone 3",
+        "description": "asdfgadg",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 79,
+  "fields": {
+    "createdAt": "2024-04-23T16:56:10.270Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 80,
+  "fields": {
+    "createdAt": "2024-04-23T16:57:07.820Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 81,
+  "fields": {
+    "createdAt": "2024-04-23T16:58:07.071Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 82,
+  "fields": {
+    "createdAt": "2024-04-23T16:58:55.715Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 83,
+  "fields": {
+    "createdAt": "2024-04-23T16:59:12.902Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 84,
+  "fields": {
+    "createdAt": "2024-04-23T16:59:36.065Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 85,
+  "fields": {
+    "createdAt": "2024-04-23T17:02:48.802Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": null,
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [],
+    "user": null
+  }
+},
+{
+  "model": "products.order",
+  "pk": 86,
+  "fields": {
+    "createdAt": "2024-04-23T17:13:21.130Z",
+    "fullName": null,
+    "email": null,
+    "phone": null,
+    "deliveryType": "free",
+    "paymentType": "online",
+    "totalCost": "1.00",
+    "status": "pending",
+    "city": null,
+    "address": null,
+    "products": [
+      {
+        "id": 4,
+        "category": "1",
+        "price": 1234,
+        "count": 1,
+        "date": "2024-04-23T15:55:05.279291Z",
+        "title": "Phone 3",
+        "description": "asdfgadg",
+        "freeDelivery": "False",
+        "images": [
+          {
+            "src": "/media/products/e1.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e2.png",
+            "alt": "Product images"
+          },
+          {
+            "src": "/media/products/e3.png",
+            "alt": "Product images"
+          }
+        ]
+      }
+    ],
+    "user": null
+  }
+},
+{
+  "model": "products.sale",
+  "pk": 1,
+  "fields": {
+    "price": "2999.00",
+    "salePrice": "2599.00",
+    "dateFrom": "2024-04-20",
+    "dateTo": "2024-04-22",
+    "title": "Sale on iPhone",
+    "images": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.sale",
+  "pk": 2,
+  "fields": {
+    "price": "9999.00",
+    "salePrice": "1999.00",
+    "dateFrom": "2024-04-20",
+    "dateTo": "2024-04-25",
+    "title": "Test",
+    "images": [
+      1
+    ]
+  }
+}
+]
